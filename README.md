@@ -22,9 +22,18 @@ dotnet ef database update --context Jobsity.Chat.DB.JobsityChatDataContext -s ..
 
 [ ] Start the websocket server
 
-navigate to Jobsity.Chat.Services\Third\SocketServer
+navigate to Jobsity.Chat.Services\Third\SocketServer folder via CMD or PowerShell
+
+if is the first time running the project, please install the npm dependencies running the command npm install
+
 Run the command node .\server.js to start the websocket server (Socket.IO)
 
 [ ] Configure the websockets options on appsettings.json file in Jobsity.Chat.API
+
+[ ] Install the front end dependencies.
+
+navigate to Jobsity.Chat.UI\ClientApp folder
+
+if is the first time running the project, please install the npm dependencies running the command npm install
 
 [ ] Run the application
