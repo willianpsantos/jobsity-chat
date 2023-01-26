@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jobsity.Chat.Core\Jobsity.Chat.Core.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Identity\Jobsity.Chat.Identity.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Interfaces\Jobsity.Chat.Interfaces.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Models\Jobsity.Chat.Models.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Repositories\Jobsity.Chat.Repositories.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Requests\Jobsity.Chat.Requests.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Responses\Jobsity.Chat.Responses.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="masstransit" Version="8.0.11" />
+    <PackageReference Include="MassTransit.Abstractions" Version="8.0.11" />
+    <PackageReference Include="SocketIOClient" Version="3.0.7" />
+  </ItemGroup>
+
+</Project>

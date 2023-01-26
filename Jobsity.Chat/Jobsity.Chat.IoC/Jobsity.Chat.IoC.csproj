@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jobsity.Chat.DB\Jobsity.Chat.DB.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Identity\Jobsity.Chat.Identity.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Interfaces\Jobsity.Chat.Interfaces.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Repositories\Jobsity.Chat.Repositories.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Requests\Jobsity.Chat.Requests.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Responses\Jobsity.Chat.Responses.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.Services\Jobsity.Chat.Services.csproj" />
+    <ProjectReference Include="..\Jobsity.Chat.UnitOfWorks\Jobsity.Chat.UnitsOfWork.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+{
+  "type": "commonjs",
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "bufferutil": "^4.0.7",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4",
+    "utf-8-validate": "^5.0.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.4.0"
+  }
+}

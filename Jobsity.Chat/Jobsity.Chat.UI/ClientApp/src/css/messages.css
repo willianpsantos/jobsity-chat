@@ -1,0 +1,71 @@
+.messages-container {
+    display: grid;
+
+    grid-template-areas: 
+        'messageslist'
+        'messageinput';    
+
+    grid-template-rows: 1fr 80px;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.messages-list {
+    background-color: rgb(224, 222, 222);
+    margin:0px;
+    padding:5px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.message-input {
+    display: inline-flex;
+    flex-direction: row;    
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.message-input textarea, .message-input input {
+    width: 90%;
+    margin-right: 8px;
+}
+
+.message-input button {
+    width: 10%;
+}
+
+.message-baloom-container {
+    padding: 5px;    
+    width: 100%;
+    box-shadow: none !important;
+}
+
+.message-baloom {
+    padding: 5px;
+    border-radius: 5px;
+    width:350px;
+}
+
+.message-baloom.theirs {
+    float:left;
+    background-color: rgb(180, 206, 240);
+    border-color: rgb(96, 158, 240);
+}
+
+.message-baloom.mine {
+    float:right;
+    background-color: rgb(242, 245, 247);
+    border-color: rgb(210, 214, 217);
+}
+
+.message-baloom .text {
+    font-size: 0.8em;
+}
+
+.message-baloom .timestamp {
+    float: right;
+    font-size: 0.75rem;
+}

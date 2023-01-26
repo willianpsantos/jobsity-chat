@@ -1,0 +1,24 @@
+/* Provide sufficient contrast against white background */
+html, body, #root, #root > div, main  {
+    height: 100%;
+}
+
+main.container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.login-container {
+    margin: 0px auto;
+    width: 400px;
+    height: 300px;
+    border: 1px outset var(--bs-gray-300);
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.login-container .row {
+    padding: 15px;
+}
